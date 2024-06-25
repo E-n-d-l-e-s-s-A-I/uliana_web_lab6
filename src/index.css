@@ -1,0 +1,45 @@
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+}
+
+table th {
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+}
+
+table td {
+    border: 1px solid #dddddd;
+    padding: 5px;
+}
+
+.hide {
+    display: none
+}
+
+.show {
+    display: inline-block
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 400px;
+    padding: 5px;
+}
+
+span {
+    font-size: 40;
+    padding: 4px;
+}
+
+span:hover {
+    color: blue
+}
